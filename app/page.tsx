@@ -9,7 +9,7 @@ export default function Home() {
           letterSpacing: "-0.02em",
         }}
       >
-        Your Name
+        Steven Li
       </h1>
 
       <div
@@ -23,19 +23,23 @@ export default function Home() {
         }}
       >
         <p>
-          Write a paragraph about yourself here. Who you are, what you do, and
-          what you're passionate about. This is your introduction to visitors.
+          I'm a Staff Software Engineer and Tech Lead at Meta's Superintelligence
+          Lab (MSL), where I lead ML infrastructure for aligning multimedia
+          generation models. I built and own the Synthetic Data Platform, AutoEval,
+          and RedOps — systems used by 20+ teams to support launches across all
+          Meta AI media products.
         </p>
 
         <p>
-          Add another paragraph about your background, experience, or current
-          focus. What projects are you working on? What problems do you care
-          about solving?
+          I also angel invest in early-stage startups and serve as a Scout at
+          Felicis. Previously, I started two companies (one exit), and wrote for
+          Forbes interviewing founders of billion-dollar companies like Scale AI,
+          Brex, and Webflow.
         </p>
 
         <p>
-          Include any other relevant information - where you're based, what
-          you're looking for, or how people can get in touch with you.
+          I studied Computer Science and Statistics at the University of Illinois
+          Urbana-Champaign. Based in the Bay Area.
         </p>
 
         <div
@@ -47,7 +51,7 @@ export default function Home() {
           }}
         >
           <a
-            href="mailto:your@email.com"
+            href="mailto:levensti@gmail.com"
             style={{
               color: "#666",
               textDecoration: "none",
@@ -58,7 +62,7 @@ export default function Home() {
             Email
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://twitter.com/levensti"
             style={{
               color: "#666",
               textDecoration: "none",
@@ -69,7 +73,7 @@ export default function Home() {
             Twitter
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/levensti"
             style={{
               color: "#666",
               textDecoration: "none",

@@ -3,8 +3,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Your Name",
-  description: "Personal website",
+  title: "Steven Li",
+  description: "Staff Software Engineer at Meta MSL. Angel investor and Felicis Scout.",
 };
 
 const navLinkStyle = {
