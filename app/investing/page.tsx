@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const investments = [
   {
     company: "Applied Compute",
@@ -8,14 +10,16 @@ const investments = [
     stage: "Series B",
     coInvestors: "Unannounced",
     date: "Jan 2026",
+    logo: "/images/logos/applied_compute_logo.jpeg",
   },
   {
     company: "Recursive Superintelligence",
     url: "https://www.recursive.com",
     description: "New AI lab focused on building recursively self-improving superintelligence that is maximally knowledge-seeking.",
-    stage: "Seed",
+    stage: "Series A",
     coInvestors: "Unannounced",
     date: "Jan 2026",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
   },
   {
     company: "hillclimb",
@@ -24,6 +28,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
+    logo: "/images/logos/hillclimb_logo.jpeg",
   },
   {
     company: "Trajectory AI",
@@ -32,6 +37,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
   },
   {
     company: "Sail Research",
@@ -40,6 +46,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
   },
   {
     company: "Factor Labs",
@@ -48,6 +55,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
   },
   {
     company: "Corridor",
@@ -56,6 +64,7 @@ const investments = [
     stage: "Series A",
     coInvestors: "Unannounced",
     date: "Oct 2025",
+    logo: "/images/logos/corridor_logo.jpeg",
   },
   {
     company: "Modal",
@@ -64,6 +73,7 @@ const investments = [
     stage: "Series B",
     coInvestors: "Lux, Redpoint",
     date: "Sep 2025",
+    logo: "/images/logos/modal_labs_logo.jpeg",
   },
   {
     company: "Listen Labs",
@@ -72,6 +82,7 @@ const investments = [
     stage: "Series A",
     coInvestors: "Sequoia",
     date: "Jul 2025",
+    logo: "/images/logos/listen_labs_logo.jpeg",
   },
   {
     company: "YouLearn",
@@ -80,6 +91,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Jun 2025",
+    logo: "/images/logos/youlearn_logo.jpeg",
   },
   {
     company: "supermemory",
@@ -88,6 +100,7 @@ const investments = [
     stage: "Pre-Seed",
     coInvestors: "Susa Ventures",
     date: "Jun 2025",
+    logo: "/images/logos/supermemory_logo.jpeg",
   },
   {
     company: "Sherpa Labs",
@@ -96,6 +109,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Mar 2025",
+    logo: "/images/logos/sherpa_labs_ai_logo.jpeg",
   },
   {
     company: "Odyssey",
@@ -104,6 +118,7 @@ const investments = [
     stage: "Series A",
     coInvestors: "GV, EQT Ventures",
     date: "Dec 2024",
+    logo: "/images/logos/odyssey_logo.jpeg",
   },
   {
     company: "Mastra",
@@ -112,6 +127,7 @@ const investments = [
     stage: "Pre-Seed",
     coInvestors: "Unannounced",
     date: "Dec 2024",
+    logo: "/images/logos/mastra_ai_logo.jpeg",
   },
   {
     company: "Vendora",
@@ -120,6 +136,7 @@ const investments = [
     stage: "Pre-Seed",
     coInvestors: "Unannounced",
     date: "Oct 2023",
+    logo: "/images/logos/vendora_logo.jpeg",
   },
   {
     company: "Tandem",
@@ -128,6 +145,7 @@ const investments = [
     stage: "Seed",
     coInvestors: "Thrive, General Catalyst, Bain",
     date: "Jun 2023",
+    logo: "/images/logos/tandem_logo.jpeg",
   },
   {
     company: "Uprise",
@@ -136,6 +154,7 @@ const investments = [
     stage: "Pre-Seed",
     coInvestors: "Blank Ventures, Dash Fund, Hustle Fund",
     date: "Jun 2023",
+    logo: "/images/logos/uprise_logo.jpeg",
   },
 ];
 
@@ -161,7 +180,7 @@ export default function Investing() {
           marginBottom: "36px",
         }}
       >
-        I angel invest in early-stage startups and serve as a Scout at Felicis.
+        I'm primarily interested in investing in early-stage startups working on AI/ML/Data infrastructure, the domain in which I work, but am flexible on industry and stage for exceptional teams.
         Here are some of the companies I've backed.
       </p>
 
@@ -178,32 +197,51 @@ export default function Investing() {
               style={{
                 display: "flex",
                 justifyContent: "space-between",
-                alignItems: "baseline",
+                alignItems: "center",
                 marginBottom: "4px",
               }}
             >
-              <a
-                href={investment.url}
-                target="_blank"
-                rel="noopener noreferrer"
+              <div
                 style={{
-                  fontWeight: 500,
-                  fontSize: "15px",
-                  color: "#111",
-                  textDecoration: "none",
-                  borderBottom: "1px solid #ccc",
-                  paddingBottom: "1px",
-                  transition: "border-color 0.2s ease",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = "#111";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = "#ccc";
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
                 }}
               >
-                {investment.company}
-              </a>
+                {investment.logo && (
+                  <Image
+                    src={investment.logo}
+                    alt={`${investment.company} logo`}
+                    width={20}
+                    height={20}
+                    style={{
+                      borderRadius: "4px",
+                    }}
+                  />
+                )}
+                <a
+                  href={investment.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    fontWeight: 500,
+                    fontSize: "15px",
+                    color: "#111",
+                    textDecoration: "none",
+                    borderBottom: "1px solid #ccc",
+                    paddingBottom: "1px",
+                    transition: "border-color 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = "#111";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = "#ccc";
+                  }}
+                >
+                  {investment.company}
+                </a>
+              </div>
               <span
                 style={{
                   fontSize: "13px",

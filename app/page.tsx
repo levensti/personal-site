@@ -1,16 +1,35 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
-      <h1
+      <div
         style={{
-          fontSize: "22px",
-          fontWeight: 600,
-          marginBottom: "28px",
-          letterSpacing: "-0.02em",
+          display: "flex",
+          alignItems: "center",
+          gap: "16px",
+          marginBottom: "32px",
         }}
       >
-        Steven Li
-      </h1>
+        <Image
+          src="/images/headshot.jpg"
+          alt="Steven Li"
+          width={56}
+          height={56}
+          style={{
+            borderRadius: "50%",
+          }}
+        />
+        <h1
+          style={{
+            fontSize: "22px",
+            fontWeight: 600,
+            letterSpacing: "-0.02em",
+          }}
+        >
+          Steven Li
+        </h1>
+      </div>
 
       <div
         style={{
