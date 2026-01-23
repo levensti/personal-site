@@ -180,7 +180,7 @@ export default function Investing() {
           marginBottom: "36px",
         }}
       >
-        I'm primarily interested in investing in early-stage startups working on AI/ML/Data infrastructure, the domain in which I work, but am flexible on industry and stage for exceptional teams.
+        Primarily interested in early-stage startups working on AI/ML/Data infrastructure, the domain in which I work, but always flexible on industry and stage for exceptional teams!
         Here are some of the companies I've backed.
       </p>
 
