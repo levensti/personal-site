@@ -42,23 +42,50 @@ export default function Home() {
         }}
       >
         <p>
-          I'm a Staff Software Engineer and Tech Lead at Meta's Superintelligence
-          Lab (MSL), where I lead ML infrastructure for aligning multimedia
-          generation models. I built and own the Synthetic Data Platform, AutoEval,
-          and RedOps — systems used by 20+ teams to support launches across all
-          Meta AI media products.
-        </p>
+          I'm currently a Staff Software Engineer leading ML infrastructure for aligning media generation models at Meta Superintelligence
+          Labs (MSL). My work encompasses large-scale synthetic data generation and curation, automated model evaluations, and human annotation. These systems are used by ~20 teams to support model development across all Meta AI media products.
+          <br />
+          <br />
+          I'm also an active angel investor, both personally and as a scout at{" "}
+          <a
+            href="https://felicis.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#111",
+              textDecoration: "none",
+              borderBottom: "1px solid #ccc",
+              paddingBottom: "1px",
+            }}
+          >
+            Felicis
+          </a>
+          , a venture firm with over $3 billion in assets under management that has made early investments in companies like Notion, Canva, Plaid, Shopify, and many more totaling over $100 billion in market cap.
+          <br />
+          <br />
+          Prior to MSL, I built two companies, including{" "}
+          <a
+            href="https://brightroom.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#111",
+              textDecoration: "none",
+              borderBottom: "1px solid #ccc",
+              paddingBottom: "1px",
+            }}
+          >
+            Brightroom
+          </a>{" "}
+          (acquired early 2025), an applied AI copilot to help students put their best foot forward in applying to their dream schools. Before that, I studied Computer Science and Statistics at the University of Illinois Urbana-Champaign.
+          <br />
+          <br />  
+          Broadly, my technical interests lie in building distributed systems that optimize AI research productivity.
 
-        <p>
-          I also angel invest in early-stage startups and serve as a Scout at
-          Felicis. Previously, I started two companies (one exit), and wrote for
-          Forbes interviewing founders of billion-dollar companies like Scale AI,
-          Brex, and Webflow.
-        </p>
+          <br />  
+          <br />  
+          Please feel free to reach out.
 
-        <p>
-          I studied Computer Science and Statistics at the University of Illinois
-          Urbana-Champaign. Based in the Bay Area.
         </p>
 
         <div
