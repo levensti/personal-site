@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafaf9;
+  color: #111;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Link hover effects */
+a {
+  transition: all 0.2s ease;
+}
+
+/* Nav link hover */
+.nav-link:hover {
+  color: #000 !important;
+  border-bottom-color: #000 !important;
+}
+
+/* Selection color */
+::selection {
+  background: #e0e0e0;
+}
