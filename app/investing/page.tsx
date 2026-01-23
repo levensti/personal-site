@@ -259,11 +259,11 @@ export default function Investing() {
               }}
             >
               {investment.description}
-              <span style={{ color: "#999" }}> · {investment.stage}</span>
+              <span style={{ color: "#999" }}> · partnered at {investment.stage}</span>
               {investment.coInvestors && (
                 <span style={{ color: "#999" }}>
                   {" "}
-                  · with {investment.coInvestors}
+                  · alongside {investment.coInvestors}
                 </span>
               )}
             </p>
