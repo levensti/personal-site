@@ -20,15 +20,26 @@ export default function Home() {
             borderRadius: "50%",
           }}
         />
-        <h1
-          style={{
-            fontSize: "22px",
-            fontWeight: 600,
-            letterSpacing: "-0.02em",
-          }}
-        >
-          Steven Li
-        </h1>
+        <div>
+          <h1
+            style={{
+              fontSize: "22px",
+              fontWeight: 600,
+              letterSpacing: "-0.02em",
+            }}
+          >
+            Steven Li
+          </h1>
+          <p
+            style={{
+              fontSize: "20px",
+              marginTop: "2px",
+            }}
+            title="San Francisco"
+          >
+            🌉
+          </p>
+        </div>
       </div>
 
       <div
@@ -80,11 +91,11 @@ export default function Home() {
           (acquired early 2025), an applied AI copilot to help students put their best foot forward in applying to their dream schools. Before that, I studied Computer Science and Statistics at the University of Illinois Urbana-Champaign.
           <br />
           <br />  
-          Broadly, my technical interests lie in building distributed systems that optimize AI research productivity.
+          Broadly, my technical interests lie in building distributed systems that optimize AI research productivity. Outside of work, I like playing tennis, chess, and poker.
 
           <br />  
           <br />  
-          Please feel free to reach out.
+          Please feel free to reach out!
 
         </p>
 
