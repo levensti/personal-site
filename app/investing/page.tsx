@@ -22,7 +22,7 @@ const investments = [
     logo: "/images/logos/stealth_startup_logo.jpeg",
   },
   {
-    company: "hillclimb",
+    company: "Hillclimb",
     url: "https://hillclimb.com",
     description: "Math-focused RL environments for research labs",
     stage: "Seed",
@@ -31,7 +31,7 @@ const investments = [
     logo: "/images/logos/hillclimb_logo.jpeg",
   },
   {
-    company: "Trajectory AI",
+    company: "Trajectory",
     url: "https://trajectory.ai",
     description: "AI company",
     stage: "Seed",
@@ -94,7 +94,7 @@ const investments = [
     logo: "/images/logos/youlearn_logo.jpeg",
   },
   {
-    company: "supermemory",
+    company: "Supermemory",
     url: "https://supermemory.ai",
     description: "Universal memory API for the AI era",
     stage: "Pre-Seed",
