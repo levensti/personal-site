@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -57,7 +58,19 @@ export default function Home() {
           Labs (MSL). My work encompasses large-scale synthetic data generation and curation, automated model evaluations, and human annotation. These systems are used by ~20 teams to support model development across all Meta AI media products.
           <br />
           <br />
-          I'm also an active angel investor, both personally and as a scout at{" "}
+          I'm also an{" "}
+          <Link
+            href="/investing"
+            style={{
+              color: "#111",
+              textDecoration: "none",
+              borderBottom: "1px solid #ccc",
+              paddingBottom: "1px",
+            }}
+          >
+            active angel investor
+          </Link>
+          , both personally and as a scout at{" "}
           <a
             href="https://felicis.com"
             target="_blank"
@@ -87,8 +100,8 @@ export default function Home() {
             }}
           >
             Brightroom
-          </a>{" "}
-          (acquired early 2025), an applied AI copilot to help students put their best foot forward in applying to their dream schools. Before that, I studied Computer Science and Statistics at the University of Illinois Urbana-Champaign.
+          </a>
+          { " "}(which was acquired in early 2025), an AI copilot that helped students across 30+ schools apply to their dream colleges. Before that, I studied Computer Science and Statistics at the University of Illinois Urbana-Champaign.
           <br />
           <br />  
           Broadly, my technical interests lie in building distributed systems that optimize AI research productivity. Outside of work, I like playing tennis, chess, and poker.

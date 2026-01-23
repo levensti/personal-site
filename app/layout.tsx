@@ -4,7 +4,31 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Steven Li",
-  description: "Staff Software Engineer at Meta MSL. Angel investor and Felicis Scout.",
+  description: "Software engineer and angel investor in AI/ML infrastructure",
+  metadataBase: new URL("https://stevenli.org"),
+  openGraph: {
+    title: "Steven Li",
+    description: "Software engineer and angel investor in AI/ML infrastructure",
+    url: "https://stevenli.org",
+    siteName: "Steven Li",
+    images: [
+      {
+        url: "/images/headshot.jpg",
+        width: 400,
+        height: 400,
+        alt: "Steven Li",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Steven Li",
+    description: "Software engineer and angel investor in AI/ML infrastructure",
+    images: ["/images/headshot.jpg"],
+    creator: "@levensti",
+  },
 };
 
 const navLinkStyle = {
