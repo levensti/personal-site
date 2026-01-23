@@ -2,38 +2,51 @@
 
 const investments = [
   {
+    company: "Applied Compute",
+    url: "https://appliedcompute.com",
+    description: "Building 'specific intelligence' for enterprises, unlocking the knowledge inside a company to train custom models and deploy an in-house agent workforce.",
+    stage: "Series B",
+    coInvestors: "Unannounced",
+    date: "Jan 2026",
+  },
+  {
     company: "Recursive Superintelligence",
-    url: "https://www.recursivesuperintelligence.ai",
-    description: "AI research",
+    url: "https://www.recursive.com",
+    description: "New AI lab focused on building recursively self-improving superintelligence that is maximally knowledge-seeking.",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Jan 2026",
   },
   {
     company: "hillclimb",
-    url: "https://hillclimb.ai",
+    url: "https://hillclimb.com",
     description: "Math-focused RL environments for research labs",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Dec 2025",
   },
   {
     company: "Trajectory AI",
-    url: "https://trajectoryai.com",
+    url: "https://trajectory.ai",
     description: "AI company",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Dec 2025",
   },
   {
     company: "Sail Research",
-    url: "https://sail.dev",
-    description: "AI research",
+    url: "https://www.sailresearch.com/",
+    description: "AI inference provider designed for background agents",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Dec 2025",
   },
   {
     company: "Factor Labs",
-    url: "https://factorlabs.ai",
-    description: "AI company",
+    url: "https://factor-labs.com",
+    description: "Computer use agents for operations",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Dec 2025",
   },
   {
@@ -41,6 +54,7 @@ const investments = [
     url: "https://corridor.dev",
     description: "Security layer for AI coding",
     stage: "Series A",
+    coInvestors: "Unannounced",
     date: "Oct 2025",
   },
   {
@@ -64,6 +78,7 @@ const investments = [
     url: "https://youlearn.ai",
     description: "Personalized AI tutor for every student",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Jun 2025",
   },
   {
@@ -71,6 +86,7 @@ const investments = [
     url: "https://supermemory.ai",
     description: "Universal memory API for the AI era",
     stage: "Pre-Seed",
+    coInvestors: "Susa Ventures",
     date: "Jun 2025",
   },
   {
@@ -78,6 +94,7 @@ const investments = [
     url: "https://sherpalabs.ai",
     description: "Agentic data team for ETL, modeling, and discovery",
     stage: "Seed",
+    coInvestors: "Unannounced",
     date: "Mar 2025",
   },
   {
@@ -93,6 +110,7 @@ const investments = [
     url: "https://mastra.ai",
     description: "Framework for AI features with JS/TS",
     stage: "Pre-Seed",
+    coInvestors: "Unannounced",
     date: "Dec 2024",
   },
   {
@@ -100,6 +118,7 @@ const investments = [
     url: "https://vendora.com",
     description: "All-in-one grocery business management software",
     stage: "Pre-Seed",
+    coInvestors: "Unannounced",
     date: "Oct 2023",
   },
   {
