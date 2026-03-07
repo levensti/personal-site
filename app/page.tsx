@@ -84,7 +84,7 @@ export default function Home() {
           >
             a16z
           </a>
-          , one of the world's leading venture capital firms.
+          .
           <br />
           <br />
           Prior to MSL, I built two companies, including{" "}
