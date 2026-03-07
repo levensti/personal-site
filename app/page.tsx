@@ -72,7 +72,7 @@ export default function Home() {
           </Link>
           , both personally and as a scout at{" "}
           <a
-            href="https://felicis.com"
+            href="https://a16z.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -82,9 +82,9 @@ export default function Home() {
               paddingBottom: "1px",
             }}
           >
-            Felicis
+            a16z
           </a>
-          , a venture firm with over $3 billion in assets under management that has made early investments in companies like Notion, Canva, Plaid, Shopify, and many more totaling over $100 billion in market cap.
+          , one of the world's leading venture capital firms.
           <br />
           <br />
           Prior to MSL, I built two companies, including{" "}
