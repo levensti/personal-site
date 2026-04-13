@@ -6,9 +6,6 @@ export const metadata = {
   title: "Steven Li",
   description: "Software engineer and angel investor in AI/ML infrastructure",
   metadataBase: new URL("https://stevenli.org"),
-  icons: {
-    icon: "/images/headshot.jpg",
-  },
   openGraph: {
     title: "Steven Li",
     description: "Software engineer and angel investor in AI/ML infrastructure",
