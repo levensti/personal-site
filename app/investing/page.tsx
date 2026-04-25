@@ -42,7 +42,7 @@ const investments = [
   {
     company: "Trajectory",
     url: "https://trajectory.ai",
-    description: "AI company",
+    description: "AI infra for continual learning",
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
