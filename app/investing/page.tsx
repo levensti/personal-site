@@ -4,9 +4,19 @@ import Image from "next/image";
 
 const investments = [
   {
+    company: "Sharpe",
+    url: "https://sharpe.com",
+    description: "Wealth management",
+    stage: "Seed",
+    coInvestors: "Unannounced",
+    date: "Apr 2026",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
+  },
+  {
     company: "Applied Compute",
     url: "https://appliedcompute.com",
-    description: "Building 'specific intelligence' for enterprises, unlocking the knowledge inside a company to train custom models and deploy an in-house agent workforce.",
+    description:
+      "Building 'specific intelligence' for enterprises, unlocking the knowledge inside a company to train custom models and deploy an in-house agent workforce.",
     stage: "Series B",
     coInvestors: "Unannounced",
     date: "Jan 2026",
@@ -15,11 +25,12 @@ const investments = [
   {
     company: "Recursive Superintelligence",
     url: "https://www.recursive.com",
-    description: "New AI lab focused on building recursively self-improving superintelligence that is maximally knowledge-seeking.",
+    description:
+      "New AI lab focused on building recursively self-improving superintelligence that is maximally knowledge-seeking.",
     stage: "Series A",
     coInvestors: "Unannounced",
     date: "Jan 2026",
-    logo: "/images/logos/stealth_startup_logo.jpeg",
+    logo: "/images/logos/recursive_logo.jpeg",
   },
   {
     company: "Hillclimb",
@@ -33,7 +44,7 @@ const investments = [
   {
     company: "Trajectory",
     url: "https://trajectory.ai",
-    description: "AI company",
+    description: "AI infra for continual learning",
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
@@ -46,16 +57,16 @@ const investments = [
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
-    logo: "/images/logos/stealth_startup_logo.jpeg",
+    logo: "/images/logos/sail_logo.jpeg",
   },
   {
     company: "Factor Labs",
     url: "https://factor-labs.com",
-    description: "Computer use agents for operations",
+    description: "Computer use agents",
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Dec 2025",
-    logo: "/images/logos/stealth_startup_logo.jpeg",
+    logo: "/images/logos/factor_labs_logo.jpeg",
   },
   {
     company: "Corridor",
@@ -180,8 +191,10 @@ export default function Investing() {
           marginBottom: "36px",
         }}
       >
-        Primarily interested in early-stage startups working on AI/ML/Data infrastructure, the domain in which I work, but always flexible on industry and stage for exceptional teams!
-        Here are some of the companies I've backed.
+        Primarily interested in early-stage startups working on AI/ML/Data
+        infrastructure, the domain in which I work, but always flexible on
+        industry and stage for exceptional teams! Here are some of the companies
+        I've backed.
       </p>
 
       <div
@@ -259,7 +272,10 @@ export default function Investing() {
               }}
             >
               {investment.description}
-              <span style={{ color: "#999" }}> · partnered at {investment.stage}</span>
+              <span style={{ color: "#999" }}>
+                {" "}
+                · partnered at {investment.stage}
+              </span>
               {investment.coInvestors && (
                 <span style={{ color: "#999" }}>
                   {" "}
