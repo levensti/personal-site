@@ -4,6 +4,15 @@ import Image from "next/image";
 
 const investments = [
   {
+    company: "Sharpe",
+    url: "https://sharpe.com",
+    description: "Stealth wealth management startup",
+    stage: "Seed",
+    coInvestors: "Unannounced",
+    date: "Apr 2026",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
+  },
+  {
     company: "Applied Compute",
     url: "https://appliedcompute.com",
     description: "Building 'specific intelligence' for enterprises, unlocking the knowledge inside a company to train custom models and deploy an in-house agent workforce.",
