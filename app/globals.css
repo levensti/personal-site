@@ -40,3 +40,41 @@ a {
 ::selection {
   background: #e0e0e0;
 }
+
+/* Investing grid — breaks out wider than the 650px text column */
+.invest-breakout {
+  width: min(920px, 94vw);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* grid-auto-flow: column fills top-to-bottom down each column (preserving
+   date order), while the fixed row count keeps left/right rows aligned. */
+.invest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(var(--invest-rows, 9), auto);
+  grid-auto-flow: column;
+  column-gap: 48px;
+  row-gap: 24px;
+}
+
+.invest-item {
+  padding-top: 18px;
+  border-top: 1px solid #ececea;
+}
+
+@media (max-width: 760px) {
+  .invest-breakout {
+    width: 100%;
+    left: auto;
+    transform: none;
+  }
+  .invest-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-flow: row;
+    row-gap: 20px;
+  }
+}
