@@ -7,7 +7,7 @@ const investments = [
     company: "Cosmona",
     url: "https://cosmona.ai",
     description:
-      "Stealth company building autonomous robots that bridge the gap between hypothesis generation and wet lab experiment validation.",
+      "Building autonomous robots that bridge the gap between hypothesis generation and wet lab experiment validation.",
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "May 2026",
