@@ -4,6 +4,16 @@ import Image from "next/image";
 
 const investments = [
   {
+    company: "Cosmona",
+    url: "https://cosmona.ai",
+    description:
+      "Stealth company building autonomous robots that bridge the gap between hypothesis generation and wet lab experiment validation.",
+    stage: "Seed",
+    coInvestors: "Unannounced",
+    date: "May 2026",
+    logo: "/images/logos/stealth_startup_logo.jpeg",
+  },
+  {
     company: "Sharpe",
     url: "https://sharpe.com",
     description: "Stealth company in wealth management",
