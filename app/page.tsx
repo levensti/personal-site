@@ -132,6 +132,17 @@ export default function Home() {
             Email
           </a>
           <a
+            href="https://github.com/levensti"
+            style={{
+              color: "#666",
+              textDecoration: "none",
+              borderBottom: "1px solid #ddd",
+              paddingBottom: "1px",
+            }}
+          >
+            GitHub
+          </a>
+          <a
             href="https://twitter.com/levensti"
             style={{
               color: "#666",
