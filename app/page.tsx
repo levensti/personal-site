@@ -54,8 +54,12 @@ export default function Home() {
         }}
       >
         <p>
-          I'm currently a Staff Software Engineer leading ML infrastructure for aligning media generation models at Meta Superintelligence
-          Labs (MSL). My work encompasses large-scale synthetic data generation and curation, automated model evaluations, and human annotation. These systems are used by ~20 teams to support model development across all Meta AI media products.
+          I'm a Staff Software Engineer at Meta Superintelligence Labs (MSL)
+          currently working on pretraining infra. Previously, I led ML
+          infrastructure for aligning media generation models, encompassing
+          large-scale synthetic data generation and curation, automated model
+          evaluations, and human annotation; these systems are used by ~20 teams
+          to support model development across all Meta AI media products.
           <br />
           <br />
           I'm also an{" "}
@@ -100,16 +104,19 @@ export default function Home() {
             }}
           >
             Brightroom
-          </a>
-          { " "}(which was acquired in early 2025), an AI copilot that helped students across 30+ schools apply to their dream colleges. Before that, I studied Computer Science and Statistics at the University of Illinois Urbana-Champaign.
+          </a>{" "}
+          (which was acquired in early 2025), an AI copilot that helped students
+          across 30+ schools apply to their dream colleges. Before that, I
+          studied Computer Science and Statistics at the University of Illinois
+          Urbana-Champaign.
           <br />
-          <br />  
-          Broadly, my technical interests lie in building distributed systems that optimize AI research productivity. Outside of work, I like playing tennis, chess, and poker.
-
-          <br />  
-          <br />  
+          <br />
+          Broadly, my technical interests lie in building systems to improve AI
+          research productivity. Outside of work, I like playing tennis, chess,
+          and poker.
+          <br />
+          <br />
           Please feel free to reach out!
-
         </p>
 
         <div

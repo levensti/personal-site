@@ -4,6 +4,16 @@ import Image from "next/image";
 
 const investments = [
   {
+    company: "Nell",
+    url: "https://nell.ai",
+    description:
+      "Stealth company in generative media from the former cofounder (CTO) of SoundCloud",
+    stage: "Seed",
+    coInvestors: "Index",
+    date: "June 2026",
+    logo: "/images/logos/nell_logo.jpeg",
+  },
+  {
     company: "Cosmona",
     url: "https://cosmona.ai",
     description: "Stealth",
@@ -15,10 +25,11 @@ const investments = [
   {
     company: "Sharpe",
     url: "https://sharpe.com",
-    description: "Stealth company in wealth management",
+    description:
+      "Stealth company in wealth management from the former cofounder (CEO) of Brex",
     stage: "Seed",
     coInvestors: "Unannounced",
-    date: "Apr 2026",
+    date: "Apr. 2026",
     logo: "/images/logos/stealth_startup_logo.jpeg",
   },
   {
@@ -28,7 +39,7 @@ const investments = [
       "Building 'specific intelligence' for enterprises, unlocking the knowledge inside a company to train custom models and deploy an in-house agent workforce.",
     stage: "Series B",
     coInvestors: "Sequoia, Benchmark, Kleiner, Lux",
-    date: "Jan 2026",
+    date: "Jan. 2026",
     logo: "/images/logos/applied_compute_logo.jpeg",
   },
   {
@@ -38,7 +49,7 @@ const investments = [
       "New AI lab focused on building recursively self-improving superintelligence that is maximally knowledge-seeking.",
     stage: "Series A",
     coInvestors: "Unannounced",
-    date: "Jan 2026",
+    date: "Jan. 2026",
     logo: "/images/logos/recursive_si_logo.jpeg",
   },
   {
@@ -47,7 +58,7 @@ const investments = [
     description: "Math-focused RL environments for research labs",
     stage: "Seed",
     coInvestors: "Y Combinator",
-    date: "Dec 2025",
+    date: "Dec. 2025",
     logo: "/images/logos/hillclimb_logo.jpeg",
   },
   {
@@ -56,7 +67,7 @@ const investments = [
     description: "AI infra for continual learning",
     stage: "Seed",
     coInvestors: "Conviction, Bessemer",
-    date: "Dec 2025",
+    date: "Dec. 2025",
     logo: "/images/logos/trajectory_logo.jpeg",
   },
   {
@@ -65,7 +76,7 @@ const investments = [
     description: "AI inference provider designed for background agents",
     stage: "Seed",
     coInvestors: "Unannounced",
-    date: "Dec 2025",
+    date: "Dec. 2025",
     logo: "/images/logos/sail_logo.jpeg",
   },
   {
@@ -74,7 +85,7 @@ const investments = [
     description: "Computer use agents",
     stage: "Seed",
     coInvestors: "Unannounced",
-    date: "Dec 2025",
+    date: "Dec. 2025",
     logo: "/images/logos/factor_labs_logo.jpeg",
   },
   {
@@ -83,7 +94,7 @@ const investments = [
     description: "Security layer for AI coding",
     stage: "Series A",
     coInvestors: "Felicis, Conviction, Lux",
-    date: "Oct 2025",
+    date: "Oct. 2025",
     logo: "/images/logos/corridor_logo.jpeg",
   },
   {
@@ -92,7 +103,7 @@ const investments = [
     description: "Serverless platform for AI, data, and ML teams",
     stage: "Series B",
     coInvestors: "Lux, Redpoint",
-    date: "Sep 2025",
+    date: "Sep. 2025",
     logo: "/images/logos/modal_labs_logo.jpeg",
   },
   {
@@ -101,7 +112,7 @@ const investments = [
     description: "Autonomous researcher for user insights",
     stage: "Series A",
     coInvestors: "Sequoia",
-    date: "Jul 2025",
+    date: "Jul. 2025",
     logo: "/images/logos/listen_labs_logo.jpeg",
   },
   {
@@ -110,7 +121,7 @@ const investments = [
     description: "Personalized AI tutor for every student",
     stage: "Seed",
     coInvestors: "Y Combinator",
-    date: "Jun 2025",
+    date: "Jun. 2025",
     logo: "/images/logos/youlearn_logo.jpeg",
   },
   {
@@ -119,7 +130,7 @@ const investments = [
     description: "Universal memory API for the AI era",
     stage: "Pre-Seed",
     coInvestors: "Susa Ventures",
-    date: "Jun 2025",
+    date: "Jun. 2025",
     logo: "/images/logos/supermemory_logo.jpeg",
   },
   {
@@ -128,7 +139,7 @@ const investments = [
     description: "Agentic data team for ETL, modeling, and discovery",
     stage: "Seed",
     coInvestors: "Y Combinator",
-    date: "Mar 2025",
+    date: "Mar. 2025",
     logo: "/images/logos/sherpa_labs_ai_logo.jpeg",
   },
   {
@@ -137,7 +148,7 @@ const investments = [
     description: "Research lab building generative worlds",
     stage: "Series A",
     coInvestors: "GV, EQT Ventures",
-    date: "Dec 2024",
+    date: "Dec. 2024",
     logo: "/images/logos/odyssey_logo.jpeg",
   },
   {
@@ -146,7 +157,7 @@ const investments = [
     description: "Framework for AI features with JS/TS",
     stage: "Pre-Seed",
     coInvestors: "Y Combinator, Spark Capital",
-    date: "Dec 2024",
+    date: "Dec. 2024",
     logo: "/images/logos/mastra_ai_logo.jpeg",
   },
   {
@@ -155,7 +166,7 @@ const investments = [
     description: "All-in-one grocery business management software",
     stage: "Pre-Seed",
     coInvestors: "Y Combinator",
-    date: "Oct 2023",
+    date: "Oct. 2023",
     logo: "/images/logos/vendora_logo.jpeg",
   },
   {
@@ -164,7 +175,7 @@ const investments = [
     description: "AI for prior authorizations and pharmacy coordination",
     stage: "Seed",
     coInvestors: "Thrive, General Catalyst, Bain",
-    date: "Jun 2023",
+    date: "June 2023",
     logo: "/images/logos/forus_logo.jpeg",
   },
   {
@@ -173,7 +184,7 @@ const investments = [
     description: "Embedded financial advisory for SMB platforms",
     stage: "Pre-Seed",
     coInvestors: "Blank Ventures, Dash Fund, Hustle Fund",
-    date: "Jun 2023",
+    date: "June 2023",
     logo: "/images/logos/uprise_logo.jpeg",
   },
 ];
