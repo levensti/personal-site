@@ -7,7 +7,7 @@ const investments = [
     company: "Nell",
     url: "https://nell.ai",
     description:
-      "Stealth company in generative media from the former cofounder (CTO) of SoundCloud",
+      "Stealth generative media startup from the former cofounder (CTO) of SoundCloud",
     stage: "Seed",
     coInvestors: "Index",
     date: "June 2026",
@@ -26,7 +26,7 @@ const investments = [
     company: "Sharpe",
     url: "https://sharpe.com",
     description:
-      "Stealth company in wealth management from the former cofounder (CEO) of Brex",
+      "Stealth wealth management startup from the former cofounder (CEO) of Brex",
     stage: "Seed",
     coInvestors: "Unannounced",
     date: "Apr. 2026",
