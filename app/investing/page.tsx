@@ -4,6 +4,16 @@ import Image from "next/image";
 
 const investments = [
   {
+    company: "Vorflux",
+    url: "https://vorflux.com/",
+    description:
+      "Coding agents in the cloud, from the former cofounder (CTO) of Rippling",
+    stage: "Seed",
+    coInvestors: "YC, Peak XV",
+    date: "July 2026",
+    logo: "/images/logos/vorflux_logo.jpeg",
+  },
+  {
     company: "Nell",
     url: "https://nell.ai",
     description:
